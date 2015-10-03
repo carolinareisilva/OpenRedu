@@ -5,7 +5,7 @@
         <div class="footer-logo-wrapper">
           <%= link_to "http://tech.redu.com.br/",
             :class => "footer-logo-link" do %>
-              <h1 class="footer-logo-img sprite-logo-redu-tech-footer text-replacement">Redu Educational Technologies</h1>
+              <h1 class="footer-logo-img sprite-logo-redu-tech-footer text-replacement">Openredu Educational Technologies</h1>
           <% end %>
           <span class="footer-cnpj">CNPJ: 12.359.885 / 0001-07</span>
         </div>
@@ -16,7 +16,7 @@
         <% unless current_user %>
           <ul class="footer-navigation">
             <li>
-              <%= link_to "Sobre o Redu", home_path(anchor: "") %>
+              <%= link_to "Sobre o Openredu", home_path(anchor: "") %>
             </li>
             <li>
               <%= link_to "Segmentos", home_path(anchor: "segmentos"),
@@ -30,8 +30,12 @@
               <%= link_to "Funcionalidades", home_path(anchor: "funcionalidades"),
                 class: "landing-scroll" %>
             </li>
+            <!--<li>
+              <%#= link_to "Planos", home_path(anchor: "planos"),
+                class: "landing-scroll" %>
+            </li>-->
             <li>
-              <%= link_to "Planos", home_path(anchor: "planos"),
+              <%= link_to "Apoiadores", home_path(anchor: "apoiadores"),
                 class: "landing-scroll" %>
             </li>
             <li>
@@ -99,16 +103,16 @@
           <div class="row">
             <div class="span2">
               <h3>
-                <%= link_to "Fale Conosco",
+                <%= link_to "Fórum Openredu",
                   contact_path,
-                  :title => "Fale Conosco",
+                  :title => "Fórum Openredu",
                   :class => "link-target"
                 %>
               </h3>
-              <p class="legend">Dúvidas? Nosso suporte online pode lhe ajudar</p>
+              <p class="legend">Dúvidas? Nosso fórum online pode lhe ajudar</p>
             </div>
             <div class="span1 alpha-half">
-              <span class="footer-talk-to-us-balloons sprite-talk-to-us text-replacement" title="Fale Conosco">Fale conosco</span>
+              <span class="footer-talk-to-us-balloons sprite-talk-to-us text-replacement" title="Fórum Openredu">Fórum Openredu</span>
             </div>
           </div>
         </div>

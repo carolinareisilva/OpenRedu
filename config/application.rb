@@ -71,7 +71,7 @@ module Redu
     end
 
     # Meta dados da aplicação
-    config.name = "Redu"
+    config.name = "Openredu"
     config.tagline = "Rede Social Educacional"
     config.description = "Rede Social Educacional"
     config.email = "contato@redu.com.br"
